@@ -41,19 +41,9 @@
             key-positions = <12 13>;
         };
 
-        muhennkann {
-            bindings = <&to_layer_0 INT_MUHENKAN>;
-            key-positions = <11 10>;
-        };
-
         double_quotation {
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <20 21>;
-        };
-
-        eq {
-            bindings = <&kp EQUAL>;
-            key-positions = <24 25>;
         };
     };
 
@@ -117,7 +107,7 @@
 &trans                      &trans           &trans           &trans           &trans        &trans                       &trans          &trans                                                                     &kp PIPE
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
 
         ARROW {
@@ -133,10 +123,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
+&trans  &trans  &trans  &trans  &trans                          &trans  &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans    &trans        &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
+&trans  &trans  &trans  &trans  &trans    &trans        &trans  &trans  &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &mkp MB4  &mkp MB5      &trans  &trans                                &trans
             >;
         };
 
