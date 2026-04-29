@@ -41,9 +41,24 @@
             key-positions = <12 13>;
         };
 
-        double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <20 21>;
+        MB1 {
+            bindings = <&mkp MB1>;
+            key-positions = <18 19>;
+        };
+
+        MB2 {
+            bindings = <&mkp MB2>;
+            key-positions = <19 20>;
+        };
+
+        back {
+            bindings = <&mkp MB4>;
+            key-positions = <2 3>;
+        };
+
+        next {
+            bindings = <&mkp MB5>;
+            key-positions = <3 4>;
         };
     };
 
@@ -123,10 +138,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                          &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans    &trans        &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans    &trans        &trans  &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &mkp MB4  &mkp MB5      &trans  &trans                                &trans
+&trans  &trans  &trans  &trans  &trans                          &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &trans        &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &trans        &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &mkp MB4  &mkp MB5      &trans  &trans                          &trans
             >;
         };
 
