@@ -41,16 +41,6 @@
             key-positions = <12 13>;
         };
 
-        MB1 {
-            bindings = <&mkp MB1>;
-            key-positions = <18 19>;
-        };
-
-        MB2 {
-            bindings = <&mkp MB2>;
-            key-positions = <19 20>;
-        };
-
         back {
             bindings = <&mkp MB4>;
             key-positions = <2 3>;
