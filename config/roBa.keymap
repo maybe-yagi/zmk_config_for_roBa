@@ -40,21 +40,6 @@
             bindings = <&kp LS(TAB)>;
             key-positions = <12 13>;
         };
-
-        back {
-            bindings = <&mkp MB4>;
-            key-positions = <2 3>;
-        };
-
-        next {
-            bindings = <&mkp MB5>;
-            key-positions = <3 4>;
-        };
-
-        mb1 {
-            bindings = <&mkp MB1>;
-            key-positions = <18 19>;
-        };
     };
 
     macros {
